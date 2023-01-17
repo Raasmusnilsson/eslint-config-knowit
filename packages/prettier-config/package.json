@@ -1,0 +1,17 @@
+{
+"name":"@raasmusnilsson/prettier-config-knowit",
+"version":"1.0.3",
+"description":"Shared Prettier Config",
+"main":"./prettier-config.json",
+"author":"Rasmus Nilsson <rasmus.nilsson@knowit.se>",
+"keywords":["prettier","config","knowit"],
+"publishConfig": {
+    "access": "public"
+},
+"scripts": {
+    "publish-manual": "npm publish"
+},
+"peerDependencies": {
+    "prettier": "^2.8.3"
+}
+}
